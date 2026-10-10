@@ -501,7 +501,7 @@ static NSSize VZGraphicsSizeToFit(NSSize availableSize, NSSize displayAspectRati
 
 @end
 
-@implementation AppDelegate {
+@implementation VZAppDelegate {
     VZVirtualMachine *_virtualMachine;
     dispatch_queue_t _queue;
     VZVirtualMachineView *_virtualMachineView;

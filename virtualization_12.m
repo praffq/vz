@@ -352,7 +352,7 @@ void startVirtualMachineWindow(void *machine, void *queue, double width, double 
     if (@available(macOS 12, *)) {
         @autoreleasepool {
             NSString *windowTitle = [NSString stringWithUTF8String:title];
-            AppDelegate *appDelegate = [[[AppDelegate alloc]
+            VZAppDelegate *appDelegate = [[[VZAppDelegate alloc]
                 initWithVirtualMachine:(VZVirtualMachine *)machine
                                  queue:(dispatch_queue_t)queue
                            windowWidth:(CGFloat)width

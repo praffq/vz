@@ -25,7 +25,7 @@
 @end
 
 API_AVAILABLE(macos(12.0))
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate, VZVirtualMachineDelegate, NSToolbarDelegate>
+@interface VZAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate, VZVirtualMachineDelegate, NSToolbarDelegate>
 - (instancetype)initWithVirtualMachine:(VZVirtualMachine *)virtualMachine
                                  queue:(dispatch_queue_t)queue
                            windowWidth:(CGFloat)windowWidth
